@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyExpenseTrackerV1</string>
+    <string name="monthly_total">This Month\'s Total</string>
+    <string name="spending_category">Spending By Category</string>
+    <string name="recent_expenses">Recent Expenses</string>
+    <string name="no_expenses">No expenses yet</string>
+    <string name="undo">Undo</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">កម្មវិធីគ្រប់គ្រងចំណាយ</string>
+    <string name="monthly_total">ចំណាយសរុបខែនេះ</string>
+    <string name="spending_category">ចំណាយតាមប្រភេទ</string>
+    <string name="recent_expenses">ចំណាយថ្មីៗ</string>
+    <string name="no_expenses">មិនទាន់មានចំណាយទេ</string>
+    <string name="undo">ត្រឡប់វិញ</string>
+    <string name="add_expense">បន្ថែមចំណាយ</string>
+    <string name="delete">លុប</string>
+</resources>
