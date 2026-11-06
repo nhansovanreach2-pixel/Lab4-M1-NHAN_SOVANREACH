@@ -42,7 +42,22 @@ class MainActivity : ComponentActivity() {
                     },
                     onDeleteExpense = { expenseToDelete ->
                         expenses = expenses.filterNot { it.id == expenseToDelete.id }
-                        Log.d(TAG, "Expense Deleted")
+                        Log.d(TAG, "Expense Deleted: ${expenseToDelete.id}")
+                    },
+                    onClearAllExpenses = {
+                        expenses = emptyList()
+                        Log.d(TAG, "All Expenses Cleared")
+                    },
+                    onRestoreExpense = { restoredExpense, index ->
+                        val currentList = expenses.toMutableList()
+                        val targetIndex = if (index in 0..currentList.size) index else currentList.size
+                        currentList.add(targetIndex, restoredExpense)
+                        expenses = currentList
+                        Log.d(TAG, "Expense Restored: ${restoredExpense.id}")
+                    },
+                    onRestoreAllExpenses = { restoredList ->
+                        expenses = restoredList
+                        Log.d(TAG, "All Expenses Restored")
                     }
                 )
             }

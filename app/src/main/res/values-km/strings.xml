@@ -8,4 +8,7 @@
     <string name="undo">ត្រឡប់វិញ</string>
     <string name="add_expense">បន្ថែមចំណាយ</string>
     <string name="delete">លុប</string>
+    <string name="clear_all">លុបទាំងអស់</string>
+    <string name="expense_deleted">ចំណាយត្រូវបានលុប</string>
+    <string name="all_expenses_deleted">ចំណាយទាំងអស់ត្រូវបានលុប</string>
 </resources>

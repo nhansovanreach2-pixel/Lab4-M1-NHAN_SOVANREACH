@@ -8,4 +8,7 @@
     <string name="undo">Undo</string>
     <string name="add_expense">Add Expense</string>
     <string name="delete">Delete</string>
+    <string name="clear_all">Clear All</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="all_expenses_deleted">All expenses deleted</string>
 </resources>
